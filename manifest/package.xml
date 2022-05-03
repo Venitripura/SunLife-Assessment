@@ -6,7 +6,14 @@
         <name>ApexClass</name>
     </types>
    
-    
+    <types>
+        <members>FinancialServicesAccountListing</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
     <types>
         <members>Custom Standard Profile</members>
         <name>Profile</name>

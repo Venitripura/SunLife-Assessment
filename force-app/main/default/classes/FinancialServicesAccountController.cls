@@ -22,9 +22,9 @@ public class FinancialServicesAccountController {
     }
     
     @AuraEnabled
-    public static String updateAccounts(List<Account> accList ){
+    public static String updateAccts(List<Account> updatedAccountList ){
         try{
-            update accList;
+            update updatedAccountList;
             return 'Success';
         }catch(Exception ex){
             return string.valueOf(ex);
